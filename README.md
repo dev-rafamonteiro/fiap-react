@@ -1,64 +1,47 @@
+# My blog - FIAP
 
-## Meu Blog - FIAP
+## Para instalar as dependências
 
-Este é um projeto de blog desenvolvido como parte do curso na FIAP.
+Antes de iniciar o projeto rode o comando abaixo:
 
-## Instalação
-
-Para começar, certifique-se de ter o Node.js instalado em sua máquina. Em seguida, siga os passos abaixo para instalar as dependências do projeto:
-
-Abra seu terminal.
-Navegue até o diretório do projeto.
-Execute o seguinte comando:
 ```bash
 
 npm install
 
 ```
 
-Este comando instalará todas as dependências necessárias para o projeto.
+## Para iniciar a aplicação
 
-## Executando a Aplicação
-
-Para iniciar a aplicação localmente, siga os passos abaixo:
-
-Após a instalação das dependências, execute o seguinte comando:
-
-Para buildar rode o comando abaixo:
+Rode o comando abaixo e acesse a porta local que será distribuida
 
 ```bash
+
 npm run dev
+
 ```
 
-Acesse a porta local que será distribuída para visualizar a aplicação.
+## Para gerar o pacote que será distribuido em produção
 
-
-## Construindo para Produção
-Para gerar o pacote que será distribuído em produção, siga os passos abaixo:
-
-Execute o seguinte comando:
-
+Para buildar rode o comando abaixo:
 
 ```bash
 npm run build
 ```
 
-Este comando compilará o projeto e gerará os arquivos otimizados para produção.
 
-
-## Atualizações no Site
-As alterações feitas na branch **main** serão refletidas automaticamente no site hospedado em:
-
+## Para as alterações serem refletidas no site
+Ao commitar na branch ```main``` suas alterações em instantes serão refletidas no site: 
 
 https://main--fiap-blog-react-4aojr.netlify.app/
 
-## Dependências do Projeto
-Este projeto foi criado utilizando React e Vite. Abaixo estão algumas das dependências utilizadas:
 
-@vitejs/plugin-react: Utiliza Babel para Fast Refresh.
-@vitejs/plugin-react-swc: Utiliza SWC para Fast Refresh.
-## Autores
-Este projeto foi desenvolvido por:
+## Dependências do projeto
+Projeto criado em React + Vite
+Para utilizar em seu projeto acesse: 
 
-Rafaela Monteiro (RA: 349962)
-Stefany Alves da Silva (RA: 349764)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+### Feito por: Amanda D Lazaro (349560) - FIAP 
